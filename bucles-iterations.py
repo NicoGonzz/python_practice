@@ -23,6 +23,18 @@ while x<5:
      print(x)
      x +=1
 
+#Prueba de While
+x = 10
+while x>5:
+     if x==6:
+          print("Se acabo la iteracion")
+          break
+     elif x==3:
+          print("Se acabo")
+          break
+print(x)
+x +=1
+
 #Iteramos el array de numeros
 numbers = [1,2,3,4,5,6]
 for i in numbers:
